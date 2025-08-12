@@ -1,0 +1,17 @@
+plugins {  //Como vai ser instalado.
+    id 'java'
+    id 'application'
+}
+
+repositories {  //Bibliotecas externas.
+    mavenCentral() 
+}
+
+application{  //Quando utilizar o pluggin application, além disso preciso colocar onde a aplicação estará.
+    mainClass = 'app.PrimeiraClasse'
+}
+
+
+//Build para compilar 
+
+//gradle run ----> roda a aplicação
